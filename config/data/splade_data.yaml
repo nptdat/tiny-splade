@@ -1,0 +1,5 @@
+# defaults:
+#   - data
+
+training_data_type: triplets
+training_data_path: path1

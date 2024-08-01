@@ -1,2 +1,9 @@
 # tiny-splade
-Implementation of SPLADE
+Implement SPLADE model
+
+# To run test
+```
+$ cd tiny-splade/src
+$ export PYTHONPATH=.
+$ pytest
+```

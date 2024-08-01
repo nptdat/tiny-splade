@@ -1,0 +1,5 @@
+# defaults:
+#   - model
+
+model_name_or_path: abc
+max_length: 345

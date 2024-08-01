@@ -1,0 +1,15 @@
+# defaults:
+#   - training
+
+training_loss: margin_mse
+regularizers:
+  doc:
+    reg_type: FLOPS
+    lambda_: 5e-3
+  query:
+    reg_type: L1
+    lambda_: 5e-3
+
+# from TrainingArguments class
+output_dir: abc
+learning_rate: 2e-04
